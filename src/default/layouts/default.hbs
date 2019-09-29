@@ -15,10 +15,7 @@
 
 <div class="container container-main">
     <div class="row">
-        <div class="col-8 col-content">
-            {{{contents}}}
-        </div>
-        <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+        <div class="col-3 col-menu menu-sticky-wrap menu-highlight">
             <nav class="tsd-navigation primary">
                 <ul>
                     {{#each navigation.children}}
@@ -34,6 +31,12 @@
                     {{/each}}
                 </ul>
             </nav>
+        </div>
+        <div class="col-6 col-content">
+            {{{contents}}}
+        </div>
+        <div class="col-3">
+            <iframe src="file:///Users/fragno/Program/AliSources/scenefinancial/sf-ui/example/dist/fixedinvest.html"></iframe>
         </div>
     </div>
 </div>
