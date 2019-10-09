@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script type="module" src="https://gw.alipayobjects.com/os/lib/iframe-device/1.0.7/build/index.js"></script>
     <link rel="stylesheet" href="{{relativeURL "assets/css/main.css"}}">
 </head>
 <body>
@@ -36,7 +37,7 @@
             {{{contents}}}
         </div>
         <div class="col-3">
-            <iframe src="file:///Users/fragno/Program/AliSources/scenefinancial/sf-ui/example/dist/fixedinvest.html"></iframe>
+            <iframe-device mode="simple" src="http://localhost:7001/{{model.name}}.html" style="width: 600px"></iframe-device>
         </div>
     </div>
 </div>
